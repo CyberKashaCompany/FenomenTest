@@ -6,7 +6,7 @@ SpriteAtlas:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: UI
+  m_Name: UIAtlas
   m_EditorData:
     serializedVersion: 2
     textureSettings:
@@ -66,6 +66,7 @@ SpriteAtlas:
     - {fileID: 2800000, guid: ecf28570bcc98b64caf7fee1e1335f41, type: 3}
     - {fileID: 2800000, guid: 26bceb07d54b41a4ea9ff7f13aac6bde, type: 3}
     - {fileID: 2800000, guid: 8d717be282ec5eb428565a58d3014876, type: 3}
+    - {fileID: 2800000, guid: 79d524e5eb08b8142aea3739d89ebf2c, type: 3}
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
@@ -74,6 +75,7 @@ SpriteAtlas:
     - 1575bec16e938ee47b45fa280b1ca02c: 21300000
     - 8d717be282ec5eb428565a58d3014876: 21300000
     - 47b507c53b5531b4c8bd87b3998e0865: 21300000
+    - 79d524e5eb08b8142aea3739d89ebf2c: 21300000
     - 26bceb07d54b41a4ea9ff7f13aac6bde: 21300000
     - fd4c12b8dbf5d0e42ae16a8a06a5dc87: 21300000
     - 50316e79429b8244bb66ed27a56c69e0: 21300000
@@ -84,19 +86,21 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 1575bec16e938ee47b45fa280b1ca02c, type: 3}
   - {fileID: 21300000, guid: 8d717be282ec5eb428565a58d3014876, type: 3}
   - {fileID: 21300000, guid: 47b507c53b5531b4c8bd87b3998e0865, type: 3}
+  - {fileID: 21300000, guid: 79d524e5eb08b8142aea3739d89ebf2c, type: 3}
   - {fileID: 21300000, guid: 26bceb07d54b41a4ea9ff7f13aac6bde, type: 3}
   - {fileID: 21300000, guid: fd4c12b8dbf5d0e42ae16a8a06a5dc87, type: 3}
   - {fileID: 21300000, guid: 50316e79429b8244bb66ed27a56c69e0, type: 3}
   - {fileID: 21300000, guid: 80e13ed9a019dad45b050ebeca4862bd, type: 3}
   m_PackedSpriteNamesToIndex:
-  - Bar
-  - Sphere
-  - Wand
-  - BonusPanel
-  - GiveUpButtonWithShadow
-  - ContinueButtonWithShadow
-  - Coin
-  - CloseButton
+  - T_Bar
+  - T_Sphere
+  - T_Wand
+  - T_BonusPanel
+  - T_Heart
+  - T_GiveUpButtonWithShadow
+  - T_ContinueButtonWithShadow
+  - T_Coin
+  - T_CloseButton
   m_RenderDataMap: {}
-  m_Tag: UI
+  m_Tag: UIAtlas
   m_IsVariant: 0
